@@ -113,8 +113,8 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl
 
 # hardware/samsung/AdvancedDisplay (MDNIE)
-PRODUCT_PACKAGES += \
-    AdvancedDisplay
+# PRODUCT_PACKAGES += \
+#     AdvancedDisplay
 
 # Radio
 PRODUCT_PACKAGES += \
@@ -130,8 +130,8 @@ PRODUCT_PACKAGES += \
     modemloader \
     rild
 
-PRODUCT_PACKAGES += \
-    SamsungServiceMode
+# PRODUCT_PACKAGES += \
+#     SamsungServiceMode
 
 # IPv6
 PRODUCT_PACKAGES += \
@@ -165,7 +165,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
     libqsap_sdk \
-    libQWiFiSoftApCfg \
+#    libQWiFiSoftApCfg \
     libwpa_client \
     wificond \
     wifilogd \
@@ -186,9 +186,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl \
-    com.android.nfc_extras \
-    NfcNci \
-    Tag
+    com.android.nfc_extras 
+#    NfcNci \
+#    Tag
 
 # Audio
 PRODUCT_COPY_FILES += \
